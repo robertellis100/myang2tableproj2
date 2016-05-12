@@ -1,0 +1,12 @@
+{
+    "Name": "Dinner With Bernard",
+    "Author": "Lola",
+    "Guest List": [
+        {"Company": "Amazonia", "MarketCap": "5,000,000", "PotluckItem": "drinks"},
+        {"Company": "eBayaria", "MarketCap": "20,000,000", "PotluckItem": "desserts"},
+        {"Company": "Softmicrosia", "MarketCap": "60,000,000", "PotluckItem": "fruit salads"},
+        {"Company": "Ogler", "MarketCap": "6,000,000", "PotluckItem": "chips"},
+        {"Company": "EggTorso", "MarketCap": "60,000,000", "PotluckItem": "egg salads"},
+        {"Company": "Awchoo", "MarketCap": "100,000,000", "PotluckItem": "green salads"}
+    ]
+}

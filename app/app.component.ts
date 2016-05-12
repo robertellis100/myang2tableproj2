@@ -1,7 +1,22 @@
-import {Component} from '@angular/core';
+
+
+
+///<reference path="./../typings/browser/ambient/es6-shim/index.d.ts"/>
+import {Component}     from '@angular/core';
+import {bootstrap}     from '@angular/platform-browser-dynamic';
+import {TableAppComponent}  from 'ng2-easy-table/app/app.component';
+import {MyConfigService} from "./config-service";
 
 @Component({
-    selector: 'my-app',
-    template: '<h1>My First Angular 2 App</h1>'
+  selector: 'my-app',
+  directives: [TableAppComponent],
+  providers: [MyConfigService],
+  template: ` <h3> My use of ng2-easy-table </h3>
+    <ng2-table [configuration]="configuration"></ng2-table>
+  `
 })
-export class AppComponent { }
+export class AppComponent {
+  constructor(private configuration:MyConfigService) {}
+}
+
+bootstrap(AppComponent, [MyConfigService]);
