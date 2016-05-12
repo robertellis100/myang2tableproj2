@@ -12,7 +12,8 @@ import {MyConfigService} from "./config-service";
   directives: [AppComponent],
   providers: [MyConfigService],
   template: ` <h3> My use of ng2-easy-table </h3>
-    <ng2-table [configuration]="configuration"></ng2-table>
+    <!--<ng2-table ></ng2-table>-->
+    
   `
 })
 export class MyApp {
