@@ -19,4 +19,4 @@ export class AppComponent {
   constructor(private configuration:MyConfigService) {}
 }
 
-bootstrap(AppComponent, [MyConfigService]);
+//bootstrap(AppComponent, [MyConfigService]);
