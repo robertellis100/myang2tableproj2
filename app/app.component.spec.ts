@@ -1,5 +1,5 @@
 /* tslint:disable:no-unused-variable */
-import { AppComponent } from './app.component';
+import { MyApp } from './app.component';
 
 import {
   expect, it, iit, xit,

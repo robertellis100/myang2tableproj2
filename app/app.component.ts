@@ -15,7 +15,7 @@ import {MyConfigService} from "./config-service";
     <ng2-table [configuration]="configuration"></ng2-table>
   `
 })
-export class AppComponent {
+export class MyApp {
   constructor(private configuration:MyConfigService) {}
 }
 
