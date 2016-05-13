@@ -1,7 +1,7 @@
 Attempting to use ng2-easy-table with a clone of Angular2 QuickStart.
 Current process results in errors. See [Issue #30](https://github.com/ssuperczynski/ng2-easy-table/issues/30).
 
-##Follow these steps:##
+## ** Follow these steps: ** ##
 * Clone [angular2 quickstart](https://github.com/angular/quickstart/blob/master/README.md) into new project folder (e.g., `my-proj`).
 Discard everything "git-like" by deleting the `.git` folder.
 ```bash
@@ -140,8 +140,9 @@ npm install
    + app/config-service.ts
    + app/data.json
    + app/main.ts
-   + app/app.component.spec.ts
-## app/app.component.ts ##
+   + app/app.component.spec.ts   
+      
+   ## app/app.component.ts ##
 ```typescript
 ///<reference path="./../typings/browser/ambient/es6-shim/index.d.ts"/>
 import {Component}     from '@angular/core';
@@ -166,7 +167,7 @@ export class MyApp {
 
 //bootstrap(AppComponent, [MyConfigService]);
 ```
-## app/config-service.ts ##
+   ## app/config-service.ts ##
 ```typescript
 import {Injectable} from "@angular/core";
 @Injectable()
@@ -182,7 +183,7 @@ export class MyConfigService {
   public rows = 10;
 }
 ```
-## app/data.json ##
+   ## app/data.json ##
 ```json
 {
     "Name": "Dinner With Bernard",
@@ -197,7 +198,7 @@ export class MyConfigService {
     ]
 }
 ```
-## app/main.ts ##
+   ## app/main.ts ##
 ```typescript
 import {bootstrap}    from '@angular/platform-browser-dynamic';
 import {MyApp} from './app.component';
@@ -206,7 +207,7 @@ import {MyApp} from './app.component';
 bootstrap(MyApp);
 //bootstrap(MyApp, [MyConfigService]);
 ```
-## app/app.component.spec.ts ##
+   ## app/app.component.spec.ts ##
 Delete everything below 'Delete This'
 ```typescript
 /* tslint:disable:no-unused-variable */
