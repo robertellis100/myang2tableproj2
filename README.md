@@ -167,6 +167,7 @@ export class MyApp {
 
 //bootstrap(AppComponent, [MyConfigService]);
 ```
+   
    ## app/config-service.ts ##
 ```typescript
 import {Injectable} from "@angular/core";
@@ -183,6 +184,7 @@ export class MyConfigService {
   public rows = 10;
 }
 ```
+   
    ## app/data.json ##
 ```json
 {
@@ -198,6 +200,7 @@ export class MyConfigService {
     ]
 }
 ```
+   
    ## app/main.ts ##
 ```typescript
 import {bootstrap}    from '@angular/platform-browser-dynamic';
@@ -207,8 +210,10 @@ import {MyApp} from './app.component';
 bootstrap(MyApp);
 //bootstrap(MyApp, [MyConfigService]);
 ```
+   
    ## app/app.component.spec.ts ##
-Delete everything below 'Delete This'
+
+   Delete everything below 'Delete This'
 ```typescript
 /* tslint:disable:no-unused-variable */
 import { MyApp } from './app.component';
