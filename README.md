@@ -232,7 +232,7 @@ import { PromiseWrapper } from '@angular/core/src/facade/promise';
 ```bash
 npm start
 ```
-* Edit index.html
+* Edit index.html to include ng2-easy-table
 ## index.html ##
 ```html
 <html>
