@@ -168,7 +168,7 @@ export class MyApp {
 //bootstrap(AppComponent, [MyConfigService]);
 ```
    
-   ## app/config-service.ts ##
+## app/config-service.ts ##
 ```typescript
 import {Injectable} from "@angular/core";
 @Injectable()
